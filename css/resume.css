@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+.check{
+    margin: auto;
+    background-color: black;
+    height: 10%;
+    width: 20%;
+    margin-top: 30px;
+}
+.check p, .check h2{
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+.check p{
+    font-size: 15px;
+    color: #9f9f9f;
+}
+.check h2{
+    font-size: 46px;
+    color: #f0f0f0;
+}
+.title{
+    font-size: 26px;
+    color: #f0f0f0;
+    font-family: Poppins, sans-serif;
+}
+.resume{
+    width: 70%;
+    height: 70%;
+    background-color: black;
+    margin: auto;
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cont1{
+    background-color: black;
+    height: 100%;
+    width: 50%;
+}
+.cont2{
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    margin-left: 30px;
+}
+.item{
+    border-left: 1px solid #009e66;
+    width: 100%;
+    height: 31%;
+    background-color: #161616;
+    padding: 32px 48px;
+    border-right: 1px solid;
+}
+.item:not(:last-child){
+    border-bottom: 1px solid #313131;
+}
+.item h5{
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    color: #f0f0f0;
+}
+.item .years, .details{
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    color: #9f9f9f; 
+    margin-top: 10px;
+}
+.resume2{
+    margin: auto;
+    margin-top: 6%;
+    width: 70%;
+    height: 40%;
+    background-color: black;
+}
+.resume2 p, .resume2 h2{
+    text-align: left;
+}
+#z1, #z2{
+    margin-left: 60px;
+}
+.progress{
+    width: 100%;
+    height: 90%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(/images/pexels-rodrigo-santos-3888151.jpg);
+    background-size: cover;
+}
+.p1{
+    height: 100%;
+    width: 40%;
+    background-color: transparent;
+}
+.p2{
+    height: 100%;
+    width: 40%;
+    background-color: transparent; 
+}
+.skill{
+    height: 30%;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.progress-bar{
+    width: 300px;
+    height: 10px;
+    border: 1px solid #ccc;
+    position: relative;
+    background: #2f2f2f;
+ }
+#z1{
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+    color: #9f9f9f;
+}
+#z2{
+    font-size: 38px;
+    font-family: Poppins, sans-serif;
+    color: #f0f0f0; 
+}
+.caption{
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    color: #cecece;
+    margin: 0px 0px 12px 12px;   
+}
+.skill:nth-of-type(1) .bar{
+    width: 90%;
+    height: 100%;
+    background-color: #4CAF50;
+}
+.skill:nth-of-type(2) .bar{
+    width: 60%;
+    height: 100%;
+    background-color: #4CAF50;
+}
+.skill:nth-of-type(3) .bar{
+    width: 80%;
+    height: 100%;
+    background-color: #4CAF50;
+}
+.p2 .skill:nth-of-type(1) .bar{
+    width: 50%;
+    height: 100%;
+    background-color: #4CAF50;
+}
+.p2 .skill:nth-of-type(2) .bar{
+    width: 10%;
+    height: 100%;
+    background-color: #4CAF50;
+}
+.p2 .skill:nth-of-type(3) .bar{
+    width: 50%;
+    height: 100%;
+    background-color: #4CAF50;
+}
