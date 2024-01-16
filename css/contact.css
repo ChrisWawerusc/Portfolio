@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     
 }
 body{
     /* background-color: black; */
@@ -24,7 +23,7 @@ body{
 }
 .check p{
     font-size: 15px;
-    color: black;
+    color: #f0f0f0;
     font-weight: 600;
 }
 .check h2{
